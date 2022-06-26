@@ -34,3 +34,41 @@
 ### 7. 제이슨(JSON) 에 대하여 서술하시오.
 
 비동기 브라우저/서버 통신 (AJAX)을 위해 “속성-값 쌍”,  “키-값 쌍”으로 이루어진 데이터  오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용 하는 개방형 표준 포맷이다.
+
+### 8. 다음 자바 프로그램 결과를 쓰시오
+
+```java
+public class Soojebi
+{
+    // ﻿isPrime 메소드는 Prime number 이면 1, 아니면 0을 리턴한다.
+    public static int isPrime(int num){
+        for(int i=2;i<num;i++){
+            if(num%i == 0){
+                return 0;
+            }
+        }
+        return 1;
+    }
+    
+	public static void main(String[] args) {
+		int num=100, cnt=0;
+		for(int i=2;i<num;i++){     // i가 2부터 num보다 작을 떄 까지 반복
+		    cnt = cnt + isPrime(i);  //오른쪽 cnt에 isPrime의 결과를 더하여 왼쪽 cnt에 대입한다.
+		}
+		
+		System.out.println(cnt);   // cnt 를 화면에 출력한다.
+	}
+}
+```
+정답) 25
+해설)  isPrime 메소드는 Prime number 이면 1, 아니면 0을 리턴한다.
+
+### 9. 5. NoSQL(Not Only SQL)에 대하여 서술하시오.
+
+NoSQL은 전통적인 RDBMS와 다른 DBMS를 지칭하기 위한 용어로 데이터 저장에 고정된 테이블 스키마가 필요하지 않고 조인(Join) 연산을 사용할 수 없으며, 수평적으로 확장이 가능한 DBMS이다. 
+
+
+
+
+
+
