@@ -91,6 +91,46 @@ NoSQL은 전통적인 RDBMS와 다른 DBMS를 지칭하기 위한 용어로 데�
 
 정답) ① ESB, ② JSON, ③ IPSec
 
+### 13. 다음 Java 프로그램의 실행 결과를 쓰시오.
+
+```java
+abstract class Animal{
+   abstract void value();
+   void key(){
+     System.out.print("animal");
+   }
+}
+class Dog extends Animal{
+   void value(){
+     System.out.print("dog");
+   }
+}
+class Soojebi {
+   public static void main(Strings[] args) {
+     Animal d = new Dog();
+     d.key();
+     d.value();
+   }
+}
+```
+
+정답) animaldog
+
+### 14. DB 정규화(Normalization)에 대하여 서술하시오.
+
+정답) 정규화는 관계형 데이터 모델에서 데이터의 중복성을 제거하여 이상 현상을 방지하고, 데이터의 일관성과 정확성을 유지하기 위해 무손실 분해하는 과정이다. 
+
+### 15. 데이터 마이닝에 대하여 서술하시오.
+
+정답) 대규모로 저장된 데이터 안에서 체계적이고 자동적으로 통계적 규칙이나 패턴을 찾아내는 기술이다. 
+
+### 16. IPC(Inter-Process Communication) 에 대하여 서술하시오.
+
+정답) IPC는 운영체제에서 프로세스 간 서로 데이터를 주고받기 위한 통신 기술이다. 
+
+### 17. REST(Representational State Transfer)에 대하여 서술하시오.
+
+정답) REST는 웹과 같은 분산 하이퍼미디어 환경에서 자원의 존재/상태 정보를 표준화된 HTTP 메서드로 주고받는 웹 아키텍처이다. 
 
 
 
