@@ -144,5 +144,21 @@ class Soojebi {
 
 정답) HDLC(High-level Data Link Control)​ 프로토콜
 
+### 20. 다음은 소프트웨어 아키텍처의 시스템 품질 속성에 대한 설명이다. 괄호(      ) 안에 들어갈 품질 속성을 쓰시오.
 
+- (         ①         )은/는 사용자가 원하는 작업을 수행할 때 시스템을 쉽게 사용하고, 고민 없이 사용할 수 있는 편의성이다.
+- (         ②         )은/는 주로 응답 시간과 관련이 있는 속성으로 사용자의 요청이 있을 때 시스템이 적절하고 신속하게 처리할 수 있는 능력이다.
+
+정​​답) ​① 사용성(Usability), ② 성능(Performance)
+
+### 21. 다음은 테스트 관련 용어이다. 괄호(      ) 안에 들어갈 용어을 보기에서 골라 쓰시오.
+
+- (        ①       )은/는 결정 조건 내 모든 개별 조건식의 모든 가능한 조합을 100% 보장하는 테스트 커버리지로 기본 조건식의 가능한 논리적인 조합이 적어도 한 번은 테스트되도록 테스트 케이스를 도출한다.
+- (        ②       )은/는 수행 가능한 모든 경로를 테스트하는 기법으로 맥케이브의 순환복잡도를 기반으로 커버리지를 계산한다.
+
+| 보기 |
+
+Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condition/Decision Coverag, Control Flow Testing, Base Path Coverage, Statement Coverage, Data Flolw Testing, Equivalence Partitioning Testing, Decision Table Testing, State Transition Testing
+
+정답) ① Multiple Condition Coverage, ② Base Path Coverage
 
