@@ -162,3 +162,14 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 
 정답) ① Multiple Condition Coverage, ② Base Path Coverage
 
+### 22. 다음은 네트워크 보안 공격이다. 괄호(      ) 안에 들어갈 용어를 쓰시오.
+
+- (         ①        )은/는 TCP 연결 설정을 위한 3-way handshaking과정에서 half-open 연결 시도가 가능하다는 취약성을 이용하는 공격 방식이다.
+- (         ②       )은/는 서버와 클라이언트가 TCP 통신을 하고 있을 때, RST 패킷을 보내고 시퀀스 넘버 등을 조작하여 연결을 가로채는 공격 방식이다.
+- (         ③       )은/는 IP 패킷의 재조합 과정에서 잘못된 Fragment Offset 정보로 인해 수신시스템이 문제를 발생하도록 만드는 DoS 공격이다.
+
+정답) ① SYN 플러딩(SYN Flooding), ​② 세션 하이재킹(Session Hijacking), ③ 티어 드롭(Tear Drop)
+
+### 23. 애자일(Agile) 방법론에 대하여 서술하시오.
+
+정답) 절차보다는 사람이 중심이 되어 변화에 유연하고 신속하게 적응하면서 효율적으로 시스템을 개발할 수 있는 신속 적응적 경량 개발 방법론이다.
