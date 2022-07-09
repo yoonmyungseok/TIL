@@ -181,3 +181,9 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 
 정답) ① SDN(Software Defined Networking), ​② NFV(Network Function Virtualization)
 
+### 25. 다음은 정보보안 위험의 처리 방식에 대한 설명이다. 괄호(       ) 안에 들어갈 위험 처리 방안을 쓰시오.
+
+- (        ①        )은/는 사업 목적상 위험을 처리하는 데 들어가는 과도한 비용 또는 시간으로 인해 일정 수준의 위험을 받아 들이는 방법으로 그 위험이 조직에 발생시키는 결과에 대한 책임을 관리층이 지는 방식이다.
+- (        ②        )은/는 위험에 대한 책임을 제 3자와 공유하는 것으로, 보험을 들거나 다른 기관과의 계약을 통하여 잠재적 손실을 제 3자에게 이전하거나 할당하는 방식이다.
+
+정답) ① 위험 수용, ​② 위험 전가
