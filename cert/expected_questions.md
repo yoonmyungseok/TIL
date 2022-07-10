@@ -187,3 +187,7 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 - (        ②        )은/는 위험에 대한 책임을 제 3자와 공유하는 것으로, 보험을 들거나 다른 기관과의 계약을 통하여 잠재적 손실을 제 3자에게 이전하거나 할당하는 방식이다.
 
 정답) ① 위험 수용, ​② 위험 전가
+
+### 26. 요구공학(Requirements Engineering)에 대하여 서술하시오.
+
+정답) 요구공학은 사용자의 요구가 반영된 시스템을 개발하기 위하여 사용자 요구사항에 대한 도출, 분석, 명세, 확인 및 검증하는 구조화된 활동이다.
