@@ -195,3 +195,7 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 - (           ​③        )은/는 배포된 디지털 콘텐츠의 이용 권한을 통제하는 장치이다.
 
 정답) ① 패키저(Packager), ② 클리어링 하우스(Clearing House), ​③ DRM 컨트롤러(DRM Controller)
+
+### 27. 요구공학(Requirements Engineering)에 대하여 서술하시오.
+
+정답) 요구공학은 사용자의 요구가 반영된 시스템을 개발하기 위하여 사용자 요구사항에 대한 도출, 분석, 명세, 확인 및 검증하는 구조화된 활동이다.
