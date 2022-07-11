@@ -199,3 +199,11 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 ### 27. 요구공학(Requirements Engineering)에 대하여 서술하시오.
 
 정답) 요구공학은 사용자의 요구가 반영된 시스템을 개발하기 위하여 사용자 요구사항에 대한 도출, 분석, 명세, 확인 및 검증하는 구조화된 활동이다.
+
+### 28. 다음은 ​보안 관련 용어 설명이다. 괄호(      ) 안에 들어갈 용어를 쓰시오.
+
+- (      ①      )은/는 소프트웨어 개발 과정에서 개발자의 실수, 논리적 오류 등으로 인해 소스 코드 등에 내포될 수 있는 잠재적인 보안 취약점을 최소화하고, 안전한 소프트웨어를 개발하기 위한 일련의 보안 활동이다.
+​- ( ​     ②      )은/는 미국 비 영리회사인 MITRE 사에서 공개적으로 알려진 소프트웨어의 보안취약점을 표준화한 식별자 목록이다.
+- ( ​     ③      )은/는 오픈소스 웹 애플리케이션 보안 프로젝트로서 주로 웹을 통한 정보 유출, 악성 파일 및 스크립트, 보안 취약점 등을 연구하는 기관이다.
+
+정답) ​① 시큐어 코딩(Secure Coding), ② CVE(Common Vulnerabilities and Exposures), ​③ OWASP(The Open Web Application Security Project)
