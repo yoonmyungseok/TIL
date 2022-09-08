@@ -283,3 +283,34 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 ### 40. 브레인스토밍(Brainstorming)에 대하여 서술하시오.
 
 정답) 말을 꺼내기 쉬운 분위기로 만들어, 회의 참석자들이 내놓은 아이디어들을 비판 없이 수용할 수 있도록 하는 회의 
+
+### 41. 다음에서 설명하는 프로세스 관련 용어를 쓰시오.
+
+- 운영체제가 프로세스 관리를 위해 필요한 자료를 담고 있는 자료구조
+- 프로세스 식별자, 프로세스 상태, 프로그램 카운트, 레지스터 저장 영역, 프로세서 스케줄링 정보, 계정 정보, 입출력 상태 정보 등으로 구성
+
+정답) 프로세스 제어 블록(PCB; Process Control Block)
+
+### 42. 다음은 소프트웨어 개발 방법론에 대한 설명이다. 괄호(      ) 안에 들어갈 방법론을 보기에서 골라 기호로 쓰시오.
+
+- (        ①       ) : 정보시스템 개발에 필요한 관리 절차와 작업 기법을 체계화한 방법론으로 대형 프로젝트를 수행하는 체계적인 방법론이다.
+- (        ②       ) : 특정 제품에 적용하고 싶은 공통된 기능을 정의하여 개발하는 방법론으로 임베디드 소프트웨어를 작성하는 데 유용한 방법론이다.
+
+| 보기 |
+
+ⓐ Structured Development, ⓑ Information Engineering Development, 
+ⓒ Object-Oriented Development, ⓓ Agile Development, ⓔ Product Line Development, 
+ⓕ Spiral Development, ⓖ Prototyping Development
+
+정답) ① : ⓑ, ② : ⓔ
+
+### 43. 다음은 Class Diagram에 대한 설명이다. 괄호( ) 안에 들어갈 용어를 보기에서 골라 쓰시오.
+
+- 클래스 다이어그램의 구성요소 중 (       ①       )은/는 클래스의 구조적 특성에 이름을 붙인 것으로 특성에 해당하는 인스턴스가 보유할 수 있는 값의 범위를 기술한 구성요소이다.
+- 클래스 간의 관계 중 (       ②       ) 관계는 ​하나의 객체에 여러 개의 독립적인 객체들이 구성되는 관계로 하나의 사물이 다른 사물에 포함되어 있는 관계를 표현하고 포함되는 쪽에서 포함하는 쪽으로 속이 빈 마름모를 연결하여 표현한다.
+
+| 보기 |
+
+Class, Attribute, Operation, Access Modifier, Association, Dependency, Generalization, Realization, Composition, Aggregation, Stereotype, extend, include
+
+정답) ① : Attribute, ② : Aggregation
