@@ -324,10 +324,7 @@ Class, Attribute, Operation, Access Modifier, Association, Dependency, Generaliz
 
 ### 45. 다음 C 프로그램 결과를 쓰시오
 
-​```c
-
-#include <stdio.h>
-
+```c
 int main()
 {
     char c = 65;
