@@ -314,3 +314,50 @@ Branch Coverage, Multiple Condition Coverage, Condition Coverage, Modified Condi
 Class, Attribute, Operation, Access Modifier, Association, Dependency, Generalization, Realization, Composition, Aggregation, Stereotype, extend, include
 
 정답) ① : Attribute, ② : Aggregation
+
+### 44. 다음은 데이터 모델 표시요소에 대한 설명이다. 괄호(      ) 안에 들어갈 용어를 영어 Full-name​으로 쓰시오.
+
+- (         ①         )은/는 데이터베이스에 저장된 실제 데이터를 처리하는 작업에 대한 명세로서 릴레이션을 조작하는 기본 도구
+​​- (         ②         )은/는 데이터베이스에 논리적으로 표현될 대상으로서의 개체 타입과 개체 타입 간의 관계로 데이터 구조 및 정적 성질을 표현하는 요소
+
+정답) ① Operation, ② Structure
+
+### 45. 다음 C 프로그램 결과를 쓰시오
+
+​```c
+
+#include <stdio.h>
+
+int main()
+{
+    char c = 65;
+    int a = (int)1.0;
+
+    printf("%c%d", ++c, a);
+
+    return 0;
+}
+```
+
+정답) B1
+
+### 46. 다음은 Web Service 유형에 대한 설명이다. 괄호(      ) 안에 들어갈 용어를 쓰시오.
+
+- (         ①         )은/는 HTTP, HTTPS, SMTP 등을 사용하여 XML 기반의 메시지를 네트워크 상태에서 교환하는 프로토콜이다.
+​​- (         ②         )은/는 웹 서비스에 대한 정보를 등록하고 검색하기 위한 저장소로 공개적으로 접근, 검색이 가능한 레지스트리이자 표준이다.
+
+정답) ① SOAP(Simple Object Access Protocol), ② UDDI(Universal Description, Discovery and Integration)
+
+### 47. 다음은 인터페이스 구현 검증 및 감시 도구에 대한 설명이다. 괄호(      ) 안에 들어갈 도구 이름을 쓰시오.
+
+- (         ①         )은/는 루비(Ruby) 기반 웹 애플리케이션 테스트 프레임워크로 모든 언어 기반의 웹 애플리케이션 테스트와 브라우저 호환성 테스팅이 가능하다.
+​​​- (         ②         )은/는 인터페이스 감시 도구로 애플리케이션에 대한 모니터링 및 DB Agent를 통해 오픈 소스 DB 모니터링 기능, 인터페이스 감시 기능을 제공한다.
+
+정답) ① watir, ② 스카우터(SCOUTER)
+
+### 48. 다음은 IPSec(IP Security)에 대한 설명이다. 괄호(      ) 안에 들어갈 용어를 쓰시오.
+
+- IPSec은 IP 계층(3계층)에서 메시지 Checksum을 활용한 데이터 인증과 비연결형 무결성을 보장해 
+- 주는 프로토콜인 (        ①       )와/과 암호화 알고리즘을 활용한 캡슐화 기반 페이로드 기밀성을 제공하는 프로토콜인 (        ②        )을/를 이용하여 양 종단 간(End Point) 구간에 보안 서비스를 제공한다.
+
+정답) ① ​​AH(Authentication Header), ② ESP(Encapsulating Security Payload)
