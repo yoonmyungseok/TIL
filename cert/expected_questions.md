@@ -358,3 +358,116 @@ int main()
 - 주는 프로토콜인 (        ①       )와/과 암호화 알고리즘을 활용한 캡슐화 기반 페이로드 기밀성을 제공하는 프로토콜인 (        ②        )을/를 이용하여 양 종단 간(End Point) 구간에 보안 서비스를 제공한다.
 
 정답) ① ​​AH(Authentication Header), ② ESP(Encapsulating Security Payload)
+
+### 49. 다음은 C 코드이다. 출력 결과를 쓰시오.
+
+```c
+#include <stdio.h>
+
+void f1(){
+  printf("f1");
+}
+
+int f2(int a){
+  return a++;
+}
+
+int main(){
+ 
+  int a = 1;
+  void (*pf1)();
+  int (*pf2)(int);
+  
+  pf1 = f1;
+  pf2 = f2;
+  
+  pf1();
+  a += pf2(5);
+  printf("%d", a);
+  
+  return 0;
+}
+```
+
+정답) f16
+
+### 50. 다음은 악성 프로그램에 대한 설명이다. 괄호(       ) 안에 들어갈 용어를 영문 Full-name으로 쓰시오.
+
+- (       ①       )은/는 어떤 제품이나 컴퓨터 시스템, 암호시스템 혹은 알고리즘에서 정상적인 인증 절차를 우회하는 기법이다.
+- (       ②       )은/는 시스템 침입 후 침입 사실을 숨긴 채 차후의 침입을 위한 백도어, 트로이 목마 설치, 원격 접근, 내부 사용 흔적 삭제, 관리자 권한 획득 등 주로 불법적인 해킹에 사용되는 기능을 제공하는 프로그램의 모음이다.
+
+정답) ① ​​Backdoor, ② Rootkit
+
+### 51. 다음은 C 코드이다. 출력 결과를 쓰시오.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+#define SIZE 5
+
+int main()
+{
+    int i = 0;
+    int *p = NULL;
+    int *p2 = NULL;
+
+    p = (int *)malloc(sizeof(int)*SIZE);   // malloc(memory allocation) 메모리 할당
+    if( p == NULL ){   // p 가 NULL 이면 (메모리 할당이 안되었다면)
+      exit(1);         // 프로그램 종료
+    }
+
+    for( i=0;i<SIZE;i++){    
+        p[i] = i+1;       // 1부터 5까지 대입
+    }
+    
+    p2 = p;    // p가 가리키는 주소값을 p2에 대입
+    p2++;     // p2 가 가리키는 주소값을 다음 주소값으로 이동
+    
+    printf("%d", *p2);   // p2가 가리키는 값을 화면에 출력
+    
+    if(p != NULL){    // p가 NULL이 아니면
+        free(p);        // 메모리 해제함
+    }
+    return 0;
+}
+```
+
+정답) 2
+
+### 52. 다음은 C 코드이다. 출력 결과를 쓰시오.
+
+```c
+#include <stdio.h>
+
+typedef struct soojebi *SjbPointer;    // struct soojebi * 를 SjbPointer 로 바꿈
+
+typedef struct soojebi{     // struct soojebi를 sjb로 바꿈
+  char gender;
+  int age;
+  int (*pfunc)(SjbPointer);     // 함수 포인터
+}sjb;      
+
+int func1(SjbPointer p){
+    printf("%c", p->gender);
+    return 0; 
+}
+
+int func2(SjbPointer p){
+    printf("%d", p->age);
+    return 0; 
+}
+
+int main() 
+{
+    sjb s[2] = {'F', 21, func1, 'M', 20, func2};      // 3번째, 6번째에 함수명을 작성
+    SjbPointer p = s;     // s는 구조체 배열 변수명이자 주소값이며, 그 값을 p 에 대입
+    p++;     // p 값을 다음 값으로 증가 시킴
+    
+    printf("%d\n", p->pfunc(p));    // 구조체 변수의 pfunc함수를 호출
+    
+    return 0;
+}
+```
+
+정답) 200
