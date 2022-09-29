@@ -519,5 +519,50 @@ print(r[1])
 
 정답) 정보처리기사
 
+### 59. 다음은 각종 재해, 장애, 재난으로부터 위기관리를 기반으로 재해복구, 업무복구 및 재개, 비상계획 등을 통해 비즈니스 연속성을 보장하는 체계인 BCP에 대한 설명이다. 괄호(       ) 안에 들어갈 용어를 영문 약자 또는 영문 Full-name으로 쓰시오.
+
+- (          ①         )은/는  장애나 재해로 인해 운영상의 주요 손실을 볼 것을 가정하여 시간 흐름에 따른 영향도 및 손실평가를 조사하는 BCP를 구축하기 위한 분석이다.
+- (          ②         )은/는 조직의 최고 경영층이 주요 지원 서비스의 중단으로 인한 업무의 영향에 대해 허용할 수 있는 최대의 시간을 의미한다. 
+
+정답) ① ​​BIA(Business Impact Analysis), ② MTD(Maximum Tolerable Downtime)
+
+### 60. 다음 C 코드의 결과를 쓰시오
+
+```c
+#include <stdio.h>
+typedef struct _SOOJEBI_STRUCT   // SOOJEBI 구조체 정의
+{
+  int n;
+  char c;
+}SOOJEBI;
+
+int soojebi(SOOJEBI *p, int length)
+{
+  int i;    
+  if(p == NULL || length < 0){   // 매개변수 체크 로직
+    return -1;                        // p가 NULL 이거나 length가 0보다 작으면 -1 을 리턴함
+  }    
+  for(i=0;i<length;i++){
+    p[i].n = i+1;     // p[i].n에 1, 2, 3 대입
+    p[i].c = i+65;    // p[i].c에 A, B, C 대입
+    printf("%d%c", p[i].n, p[i].c );    // 1A2B3C 출력
+  }
+  return 1;
+}
+
+int main()
+{
+  SOOJEBI s[3];   // 구조체 배열 변수 s 언언
+  int i, ret=0;
+  int len = sizeof(s)/sizeof(s[0]);    // len 계산
+  ret = soojebi(s, len);    // 구조체 주소와 len을 매개변수로 넘김
+  if(ret < 0) printf("%d", ret);  // ret가 0보다 작으면 ret를 출력
+  return 0;
+}
+​```
+
+정답) 1A2B3C
+
+
 
 
