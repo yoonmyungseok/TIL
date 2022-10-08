@@ -637,3 +637,33 @@ select 이름
 from 성적
 where 과목 = '자료구조' AND 학점 = 'A'
 order by 이름 desc;
+
+### 71. 다음은 애플리케이션 성능 개선과 관련된 사항이다. 괄호(      ) 안에 들어갈 용어를 보기에서 골라 기호로 쓰시오.
+
+- (        ①       )은/는 애플리케이션 성능 측정 지표 중 애플리케이션에 사용자가 요구를 입력한 시점부터 트랜잭션을 처리 후 그 결과의 출력이 완료할 때까지 걸리는 시간을 말한다.
+- (        ②       )은/는 소스 코드 품질분석 도구 중 동적 분석 도구로 자동화된 메모리 및 스레드 결함 발견 분석 도구이다.
+
+| 보기 |
+
+ⓐ Throughput, ⓑ Response Time, ⓒ Turnaround Time, ⓓ Resource Usage, ⓔ pmd, ⓕ cppcheck, ⓖ Valgrind, ⓗ checkstyle
+
+정답) ① : ⓒ, ​② : ⓖ
+
+### 72. 다음은 암호 알고리즘에 대한 설명이다. 괄호( ) 안에 들어갈 용어를 보기에서 골라 기호로 쓰시오.
+
+- ( ① )은/는 유한체 위에서 정의된 타원곡선 군에서의 이산대수의 문제에 기초한 공개키 암호화 알고리즘으로 키의 비트 수를 적게하면서 동일한 성능을 제공한다.
+- ( ② )은/는 국내 표준 서명 알고리즘 KCDSA(Korean Certificate-based Digital Signature Algorithm)를 위하여 개발된 해시함수로 MD5와 SHA1의 장점을 취하여 개발된 해시 알고리즘이다.
+
+| 보기 |
+
+ⓐ DES, ⓑ SEED, ⓒ AES, ⓓ RSA, ⓔ pmd, ⓕ ARIA, ⓖ IDEA, ⓗ LFSR, ⓘ ECC, ⓙ HAS-160, ⓚ HAVAL
+
+정답) ① : ⓘ, ​② : ⓙ
+
+### 73. ERD(Entity Relationship Diagram)에 대해 설명하시오.
+
+정답) ERD(Entity Relationship Diagram)는 각 업무 분석에서 도출된 엔터티 간의 관계를 이해하기 쉽게 도식화한 다이어그램이다. 
+
+### 74. 튜플(Tuple)에 대해 설명하시오.
+
+정답) 튜플(Tuple)은 릴레이션의 행(Row)에 해당되는 요소이다.
